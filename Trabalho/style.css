@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'JUJUTSU';
+    src: url(jujutsu-kaisen/Jujutsu\ Kaisen.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(50px);
+  }
+
+  body{
+    background-image: url(zyro-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(px);
+
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    font-family: 'JUJUTSU';
+    font-size: 50px;
+    color: #af0000;
+   
+}
