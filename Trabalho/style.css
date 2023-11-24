@@ -6,11 +6,23 @@
 * {
     margin: 0;
     padding: 0;
-    backdrop-filter: blur(50px);
+    
   }
 
-  body{
-    background-image: url(zyro-image.png);
+  @media (max-width: 600px) {
+    header, section, footer {
+        padding: 10px;
+    }
+}
+
+
+
+body {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Jujutsu-Kaisen-Shibuya-Arc-thumb.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,11 +30,39 @@
 
 }
 
-header{
+header {
+    color: rgb(172, 0, 0);
     text-align: center;
-    justify-content: center;
+    padding: 1em;
     font-family: 'JUJUTSU';
-    font-size: 50px;
-    color: #af0000;
-   
+    font-size: 30px;
 }
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+ /*   footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+
+.footer__p{
+    line-height: 2;
+    padding: 5px;
+    margin: 5px;
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+  *\
+  
+  
+ 
